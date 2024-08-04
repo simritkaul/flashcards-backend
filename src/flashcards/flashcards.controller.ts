@@ -11,7 +11,7 @@ import { FlashcardsService } from './flashcards.service';
 import { CreateFlashcardDto } from 'src/dto/create-flashcard.dto';
 import { UpdateFlashcardDto } from 'src/dto/update-flashcard.dto';
 
-@Controller('flashcards')
+@Controller('api/v1/flashcards')
 export class FlashcardsController {
   constructor(private flashcardsService: FlashcardsService) {}
 
